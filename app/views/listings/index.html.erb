@@ -1,0 +1,7 @@
+
+
+<h2>Listings</h2>
+
+<% @listings.each do |listing| %>
+    <h4><%= link_to listing.title, listing_path(listing) %> - <%= link_to listing.neighborhood.city.name, city_path(listing.neighborhood.city) %><h4>
+<% end %>
