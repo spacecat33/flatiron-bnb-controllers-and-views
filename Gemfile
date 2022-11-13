@@ -7,6 +7,7 @@ gem 'sass-rails'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'uglifier', '>= 1.3.0'
 gem 'bootsnap'
+gem 'turbolinks'
 
 group :development, :test do
   gem 'rack_session_access'
@@ -16,6 +17,7 @@ group :development, :test do
   gem "pry-byebug"
   gem "rspec-rails"
   gem "sprockets_better_errors"
+  gem "sprockets-rails"
 gem 'sqlite3', '~> 1.3.6'
 end
 
